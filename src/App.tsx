@@ -1,5 +1,6 @@
 // import { Parent } from "./props/Parent";
-import GuestList from "./state/GuestList";
+// import GuestList from "./state/GuestList";
+import UserSearch from "./state/UserSearch";
 
 function App() {
 	return (
@@ -14,7 +15,8 @@ function App() {
 				When oceans bleed into the sky...
 			</div>
 			{/* <Parent /> */}
-			<GuestList />
+			{/* <GuestList /> */}
+			<UserSearch />
 		</div>
 	);
 }
