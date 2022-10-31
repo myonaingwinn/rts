@@ -6,7 +6,7 @@ const GuestList: React.FC = () => {
 
 	const handleGuests = () => {
 		setName(""); // send this under the guest list
-		setGuests([...guests, name]);
+		if (name && name.trim() !== "") setGuests([...guests, name]);
 	};
 
 	return (
